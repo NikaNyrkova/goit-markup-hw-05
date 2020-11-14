@@ -81,6 +81,9 @@ header {
   text-decoration: none;
   color: inherit;
   font-style: normal;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-header {
@@ -151,11 +154,17 @@ header {
   display: inline-flex;
   justify-content: center;
   align-items: baseline;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-header-svg {
   fill: var(--main-text-color);
   margin-right: 10px;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-header:hover .link-header-svg,
@@ -190,6 +199,9 @@ header {
   line-height: 1.625;
   text-align: center;
   color: var(--title-color);
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-filtr:hover,
@@ -232,6 +244,9 @@ header {
   border: 1px solid #eeeeee;
   text-decoration: none;
   color: var(--main-text-color);
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-project:hover,
@@ -268,6 +283,9 @@ header {
 
   z-index: 2;
   opacity: 0;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-img::after {
@@ -281,6 +299,9 @@ header {
 
   z-index: 1;
   opacity: 0;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title-projects {
@@ -362,6 +383,11 @@ header {
   width: 20px;
   height: 20px;
   fill: var(--white);
+}
+
+.social-icons-link {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-link:hover,

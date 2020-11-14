@@ -71,6 +71,9 @@ body {
   text-decoration: none;
   color: inherit;
   font-style: normal;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-header {
@@ -146,6 +149,8 @@ body {
 .link-header-svg {
   fill: var(--main-text-color);
   margin-right: 10px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   /* vertical-align: middle; */
 }
 
@@ -402,12 +407,18 @@ body {
   height: 44px;
   background-color: var(--white);
   border-radius: 50%;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-svg {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-link:hover .social-icons-svg,
@@ -447,10 +458,16 @@ body {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icons-svg {
   fill: #afb1b8;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icons-link:hover,
